@@ -35,36 +35,12 @@ int main(){
     	soma_c3 = 0;
     	correto = 0;
     
-    	//primeira linha	
-    	cercado[0][0] = 0;
-    	cercado[0][1] = 1;
-    	cercado[0][2] = 0;
-    	cercado[0][3] = 1;
-    	
-    	//segunda linha
-    	cercado[1][0] = 1;
-    	cercado[1][1] = 1;
-    	cercado[1][2] = 0;
-    	cercado[1][3] = 0;
-    
-    	//terceira linha
-    	cercado[2][0] = 0;
-    	cercado[2][1] = 0;
-    	cercado[2][2] = 1;
-    	cercado[2][3] = 1;
-    
-    	//quarta linha
-    	cercado[3][0] = 1;
-    	cercado[3][1] = 0;
-    	cercado[3][2] = 1;
-    	cercado[3][3] = 0;
-    
-    /*
+
     	//preenche automatico
     	for (i=0; i<4; i++)
     		for (j=0; j<4; j++)
     			cercado[i][j] = rand() % 2;
-    */
+
     
     	//soma de linhas	
     	for (j=0; j<4; j++)
